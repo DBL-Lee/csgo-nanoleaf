@@ -20,5 +20,5 @@ func main() {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 	go n.Start(ctx)
-	game.Listen(":3001")
+	game.Listen(":3000")
 }
