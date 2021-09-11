@@ -1,4 +1,4 @@
-module csgo
+module github.com/DBL-Lee/csgo-nanoleaf
 
 go 1.17
 
